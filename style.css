@@ -1,0 +1,106 @@
+html{
+    background-color: rgb(71, 71, 71);
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#add{
+    padding: 20px;
+    background-color: rgb(86, 86, 86);
+}
+
+#add div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+#add div p{
+    width: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+ol{
+    padding: 0;
+    margin: 0;
+}
+
+ol li{
+    background-color: rgb(189, 189, 189);
+    margin: 0 50px;
+    color: rgb(86, 86, 86);
+    padding: 20px;
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+ol li::marker{
+    background-color: rgb(189, 189, 189);
+    color:white;
+    font-size: 2em;
+}
+
+ol li h1{
+    margin: 0 10px;
+}
+
+input{
+    width: 200px;
+    height: 20px;
+    background-color: rgb(71, 71, 71);
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    outline: none;
+}
+
+input::placeholder{
+    color: rgb(136, 136, 136);
+}
+
+input#dateInput{
+    color: rgb(136, 136, 136);
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(50%);
+}
+
+button{
+    outline: none;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(71, 71, 71);
+    box-shadow: none;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+
+button:hover{
+    background-color: rgb(61, 61, 61);
+}
+
+#alert{
+    position: absolute;
+    background-color: rgb(197, 133, 133);
+    width: 400px;
+    align-self: center;
+    top: 0;
+    text-align: center;
+    transform: translateY(-200px);
+    transition: 0.5s;
+    margin: 0;
+    padding: 20px;
+}
+
+#alert p{
+    margin: 0;
+}
